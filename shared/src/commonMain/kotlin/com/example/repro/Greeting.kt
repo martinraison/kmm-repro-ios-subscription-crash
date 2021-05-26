@@ -3,8 +3,8 @@ package com.example.repro
 import com.apollographql.apollo3.ApolloClient
 import com.apollographql.apollo3.network.http.ApolloHttpNetworkTransport
 import com.apollographql.apollo3.network.ws.ApolloWebSocketNetworkTransport
-import com.example.kmmapplication.graphql.CancelTripMutation
-import com.example.kmmapplication.graphql.TripsBookedSubscription
+import com.example.repro.graphql.CancelTripMutation
+import com.example.repro.graphql.TripsBookedSubscription
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay

@@ -59,7 +59,7 @@ android {
 }
 
 apollo {
-    rootPackageName.set("com.example.kmmapplication.graphql")
+    rootPackageName.set("com.example.repro.graphql")
     schemaFile.set(File("../graphql/schema.graphql"))
 }
 
